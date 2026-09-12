@@ -1,4 +1,5 @@
 package com.bharath.reservationservice.entity.enums;
 
-public class BookingStatus {
+public enum BookingStatus {
+    PENDING, CONFIRMED, CANCELLED
 }
